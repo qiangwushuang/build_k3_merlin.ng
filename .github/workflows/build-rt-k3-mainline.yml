@@ -151,7 +151,7 @@ jobs:
         commit: master 
         tag: ${{ env.BUILD_DATE }}_mainline_k3_${{ env.MERLIN_TAG }}
         body: |
-          this is only a latest build from mainline
+          this is only a latest build from mainline by qiangwushuang
           version: https://github.com/godcong/asuswrt-merlin.ng/commit/${{ env.MERLIN_VERSION }}
         token: ${{ secrets.GITHUB_TOKEN }}
         draft: false
